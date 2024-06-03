@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC MARKET</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Анимации */
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        .slide-in {
+            animation: slideIn 1.5s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Дополнительные стили */
+        .jumbotron {
+            background: url('bitcoin-blockchain-digital-coin-crypto-currency-concept-background_975381-73.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">меню</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center fade-in">
+        <h1 class="display-4">Добро пожаловать на BTC market</h1>
+        <p class="lead">Мы предлагаем лучшие услуги по покупке криптовалют</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Узнать больше</a>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 slide-in">
+                <div class="card">
+                    <img src="bitcoin_freepik_19f7a2aafc.jpg" class="card-img-top" alt="Услуга 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bitcoin</h5>
+                        <p class="card-text">купить btc по выгодной цене</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 slide-in">
+                <div class="card">
+                    <img src="C708D9CEF62C2C6AF57C06685C29B77D.png" class="card-img-top" alt="Услуга 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Toncoin</h5>
+                        <p class="card-text">купить ton по выгодной цене</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 slide-in">
+                <div class="card">
+                    <img src="Без названия.jpeg" class="card-img-top" alt="Услуга 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Notcoin</h5>
+                        <p class="card-text"> временно недоступно</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-white text-center">
+        <div class="container">
+            <span>&copy; 2024 btc market | все права защищены</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
